@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Qbric Scan
-        uses: org_name/qbric-actions@v1
+        uses: malikimransabir/automation-actions@v1
         with:
           scan-path: .
           tenant-id: ${{ vars.QBRIC_TENANT_ID }}
